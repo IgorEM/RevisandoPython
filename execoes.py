@@ -7,7 +7,7 @@ try:
     x = 1
     # print('Fechando Arquivo')
     # arquivo.close()
-# except Exception as ex: #exception tree python
+# except Exception as ex: # exception tree python
 #     print('erro desconhecido. Erro: {}'.format(ex))
 except ZeroDivisionError:
     print('Não é possível realizar uma divisão por 0')
