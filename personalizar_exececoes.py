@@ -11,7 +11,7 @@ while True:
         x = int(input('Entre com uma nota de 0 a 10: '))
         print(x)
         if x > 10:
-            # raise força uma exceção
+            #  raise força uma exceção
             raise InputError('nota não pode ser maior que 10')
         elif x < 0:
             raise InputError('nota não pode ser menor que 0')
