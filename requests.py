@@ -4,7 +4,7 @@ def retorna_dados_cep(cep):
     response = requests.get('https://viacep.com.br/ws/{}/json/'.format(cep))
     print(type(response))
     print(response.status_code) #200 -sucesso, 400 - nao existe, not found
-    print(response.text) # class str
+    print(response.text) #  class str
     print(type(response.text))
     print(response.json()) # class dict
     print(type(response.json()))
